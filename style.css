@@ -1,0 +1,81 @@
+
+.mainBody{
+  text-align: center;
+  margin-top: 2rem;
+
+}
+
+#taskNumber{
+    width: 3%;
+    height: 1.5rem;
+}
+
+
+
+
+
+progress {
+    text-align: center;
+    height: 1.5em;
+    width: 60%;
+    -webkit-appearance: none;
+    border: none;
+    margin-top: 1rem;
+    border: 3px solid #fd02ea;
+    border-radius: 5px;
+    
+    /* Set the progressbar to relative */
+    position:relative;
+  }
+  progress:before {
+    content: attr(data-label);
+    font-size: 0.8em;
+    vertical-align: 0;
+    
+    /*Position text over the progress bar */
+    position:absolute;
+    left:0;
+    right:0;
+  }
+  progress::-webkit-progress-bar {
+    background-color: #ffffff;
+  }
+  progress::-webkit-progress-value {
+    background-color: #d736e6;
+  }
+  progress::-moz-progress-bar {
+    background-color: #d736e6;
+  }
+
+  /* #addServer{
+    background-color: #d736e6;
+    border: none;
+    color: white;
+    font-weight: 500;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 10rem;
+  }
+
+  #addTask{
+    background-color: #d736e6;
+    border: none;
+    color: white;
+    font-weight: 500;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+  } */
+
+  button{
+    background-color: #d736e6;
+    border: none;
+    color: white;
+    font-weight: 500;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
